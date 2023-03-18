@@ -1,0 +1,11 @@
+@media screen and (max-width:499px) {
+    .SearchBox{
+        width: 80%;
+    }
+}
+@media screen and (max-width:767px) and (min-width:500px){
+
+}
+@media screen and (max-width:991px) and (min-width:768px){
+
+}

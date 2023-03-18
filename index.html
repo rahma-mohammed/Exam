@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>yummy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/spener.css">
+
+</head>
+
+<body>
+    
+    <div class="loading-screen">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="Contact">
+        <div class="SearchText" id="SearchText"></div>
+        <div class="tamp" id="tamp">
+            <div class="Category">
+                <div class="row" id="CategoryRow"></div>
+            </div>
+            <div class="ProductDetails text-start">
+                <div class="row" id="Meal"></div>
+            </div>
+            <div class="Area">
+                <div class="row" id="Area"></div>
+            </div>
+        </div>
+        
+            <div class="ContactUs" id="ContactUs">
+                <div class="input-group flex-nowrap mt-3">
+                    <div class="col-md-6 ">
+                        <input type="text"
+                            class="text-light  border-0 border-bottom rounded form-control"
+                            id="name" placeholder="Enter Your Name" required>
+                        <div id="nameValid" class="invalid-feedback">Special Characters and Numbers not allowed</div>
+                    </div>
+                    <div class="col-md-6 ms-2">
+                        <input type="email"
+                            class="text-light  border-0 border-bottom rounded form-control"
+                            id="email" placeholder="Enter Your Email" required>
+                        <div id="emailValid" class="invalid-feedback">Enter valid email. *Ex: xxx@yyy.zzz </div>
+                    </div>
+                </div>
+                <div class="input-group flex-nowrap mt-3">
+                    <div class="col-md-6 ">
+                        <input type="text"
+                            class="text-light  border-0 border-bottom rounded form-control"
+                            id="phone" placeholder="Enter Your phone" required>
+                        <div id="phoneValid" class="invalid-feedback">Enter valid Phone Number</div>
+                    </div>
+                    <div class="col-md-6 ms-2">
+                        <input type="text"
+                            class="text-light  border-0 border-bottomrounded form-control"
+                            id="Age" placeholder="Enter Your Age" required>
+                        <div id="AgeValid" class="invalid-feedback">Enter valid Age</div>
+                    </div>
+                </div>
+                <div class="input-group flex-nowrap mt-3">
+                    <div class="col-md-6 ">
+                        <input type="password"
+                            class="text-light  border-0 border-bottom rounded form-control"
+                            id="password" placeholder="Enter Your Password" required>
+                        <div id="passwordValid" class="invalid-feedback">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+                    </div>
+                    <div class="col-md-6 ms-2">
+                        <input type="password"
+                            class="text-light  border-0 border-bottom rounded form-control"
+                            id="RePassword" placeholder="RePassword" required>
+                        <div id="RePasswordValid" class="invalid-feedback">Enter valid Repassword</div>
+                    </div>
+                </div>
+                <div class="input-group flex-nowrap mt-3">
+                    <button type="button" id="submitBtn" class="btn btn-outline-danger text-center">Submit</button>
+                </div>
+            </div>
+        <div class="SearchBox">
+            <div class="LeftBox">
+                <div class="LeftBoxTop">
+                    <ul id="LeftBoxTopUl">
+                        <li><a>Search</a></li>
+                        <li><a>Categories</a></li>
+                        <li><a>Area</a></li>
+                        <li><a>Ingredients</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="LeftBoxFooter">
+                    <div class="SearchLeftBoxIcon">
+                        <i class="FirstMargin fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="SearchLeftBoxSpan">
+                        <span>Copyright Â© 2019 All Rights Reserved.</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="RightBox">
+                <div class="RightBoxTopIcon">
+                    <img src="image/logo.png" class="RightBoxTopImage" alt="">
+                </div>
+                <div class="RightBoxButton">
+                    <i class="fa fa-align-justify" id="Setting"></i>
+                </div>
+                <div class="RightBoxFooter">
+                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.Contact {
+    width: 80%;
+    height: 100vh;
+    color: white;
+    margin: auto;
+    
+}
+
+.Contact .Category {
+    margin-top: 25px;
+    display: none;
+}
+
+.Contact .Category .row .RowContenar {
+    padding: 20px 20px;
+}
+
+.Contact .Category .row .RowContent {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.Contact .Category .row .RowContent .leayr {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: black;
+    transition: all 0.5s;
+}
+
+.Contact .Category .row .RowContent:hover .leayr {
+    width: 100%;
+    top: 0;
+    transition: all 2s;
+}
+
+.Contact .Area {
+    display: none;
+}
+.Contact .Area .row .AreaContenar {
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.Contact .Area .row .AreaContenar .AreaContent {
+    text-align: center;
+    color: #e65a50ab;
+}
+
+.Contact .Area .row .AreaContenar .AreaContent h2,
+.Contact .Area .row .AreaContenar .AreaContent p {
+    color: white;
+}
+
+.Contact .ProductDetails {
+    overflow: hidden;
+    margin-top: 25px;
+    display: none;
+}
+
+.Contact .ProductDetails .DetailsText ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.Contact .ProductDetails .DetailsText .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #d4edda;
+}
+
+.Contact .ProductDetails .DetailsText .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.Contact .ProductDetails .DetailsText .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.SearchBox {
+    position: fixed;
+    top: 0;
+    left: -218;
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    z-index: 70;
+}
+
+.SearchBox .LeftBox {
+    width: 80%;
+    height: 100%;
+}
+
+.LeftBoxTop {
+    height: 80%;
+    overflow: hidden;
+}
+
+.SearchBox .LeftBox .LeftBoxTop ul {
+    margin-top: 10px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.SearchBox .LeftBox .LeftBoxTop ul li {
+    padding-left: 10px;
+    padding-top: 500px;
+    opacity: 0;
+}
+
+
+.SearchBox .LeftBox .LeftBoxTop ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.SearchBox .LeftBox .LeftBoxFooter {
+    height: 20%;
+}
+
+.SearchBox .LeftBox .LeftBoxFooter .SearchLeftBoxIcon {
+    margin-left: 10px;
+}
+
+.SearchBox .LeftBox .LeftBoxFooter .FirstMargin {
+    margin-left: 0px;
+}
+
+.SearchBox .LeftBox .LeftBoxFooter i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.SearchBox .LeftBox .LeftBoxFooter .SearchLeftBoxSpan {
+    margin-left: 10px;
+    color: #999;
+    margin-top: 10px;
+    cursor: text;
+}
+
+.SearchBox .RightBox {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.SearchBox .RightBox .RightBoxTopIcon {
+    margin: 25px 0;
+}
+
+.SearchBox .RightBox .RightBoxTopIcon img {
+    width: 75%;
+}
+
+.SearchBox .RightBox .RightBoxButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SearchBox .RightBox .RightBoxButton i {
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+}
+
+.SearchBox .RightBox .RightBoxFooter {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+}
+
+.SearchBox .RightBox .RightBoxFooter i {
+    padding: 5px 0;
+    cursor: pointer;
+}
+.SearchText{
+display: none;
+}
+.Contact .ContactUs{
+    width: 70%;
+    margin: auto;
+    display: none;
+}
+.loading-screen{
+    background-color:rgb(92, 92, 92);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
